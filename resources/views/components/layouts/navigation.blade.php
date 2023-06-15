@@ -23,13 +23,6 @@
                            class="px-3 py-2 text-sm font-medium rounded-md hover:text-sky-600 dark:hover:text-white {{ request()->routeIs('welcome') ? 'text-sky-600 dark:text-white' : 'text-slate-400' }}">
                             Inicio
                         </a>
-                        <a href="{{ route('nosotros') }}" class="px-3 py-2 text-sm font-medium rounded-md hover:text-sky-600 dark:hover:text-white {{ request()->routeIs('nosotros') ? 'text-sky-600 dark:text-white' : 'text-slate-400' }}">
-                            Nosotros
-                        </a>
-                       
-                        <a href="{{ route('contacto') }}" class="px-3 py-2 text-sm font-medium rounded-md hover:text-sky-600 dark:hover:text-white {{ request()->routeIs('contacto') ? 'text-sky-600 dark:text-white' : 'text-slate-400' }}">
-                            Contacto
-                        </a>
                         <a href="{{ route('carreras') }}" class="px-3 py-2 text-sm font-medium rounded-md hover:text-sky-600 dark:hover:text-white {{ request()->routeIs('carreras') ? 'text-sky-600 dark:text-white' : 'text-slate-400' }}">
                             Carreras
                         </a> 
@@ -41,9 +34,6 @@
                         </a>
                         <a href="{{ route('login') }}" class="px-3 py-2 text-sm font-medium rounded-md hover:text-sky-600 dark:hover:text-white {{ request()->routeIs('login') ? 'text-sky-600 dark:text-white' : 'text-slate-400' }}">
                             Ingresar
-                        </a>
-                        <a href="{{ route('register') }}" class="px-3 py-2 text-sm font-medium rounded-md hover:text-sky-600 dark:hover:text-white {{ request()->routeIs('register') ? 'text-sky-600 dark:text-white' : 'text-slate-400' }}">
-                            Registro
                         </a>
                     </div>
                 </div>

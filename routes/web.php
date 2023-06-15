@@ -7,8 +7,6 @@ use App\Http\Controllers\AulaController;
 use App\Http\Controllers\PeriodoController;
 use App\Http\Controllers\GrupoController;
 use App\Http\Controllers\Auth\RegisteredUserController;
-use App\Http\Controllers\IntententeController;
-
 
 use Illuminate\Support\Facades\Route;
 
@@ -78,5 +76,3 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__ . '/auth.php';
-
-Route::get('/intendente', [IntententeController::class, 'index'])->name('intendente.index');
