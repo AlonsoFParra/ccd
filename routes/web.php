@@ -7,11 +7,6 @@ use App\Http\Controllers\AulaController;
 use App\Http\Controllers\PeriodoController;
 use App\Http\Controllers\GrupoController;
 use App\Http\Controllers\Auth\RegisteredUserController;
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 06db915d4959271d81bcbe319749e3e3647b4ea3
 
 use Illuminate\Support\Facades\Route;
 
@@ -82,7 +77,3 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__ . '/auth.php';
-<<<<<<< HEAD
-=======
-
->>>>>>> 06db915d4959271d81bcbe319749e3e3647b4ea3
