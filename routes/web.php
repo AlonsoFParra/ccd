@@ -7,7 +7,7 @@ use App\Http\Controllers\AulaController;
 use App\Http\Controllers\PeriodoController;
 use App\Http\Controllers\GrupoController;
 use App\Http\Controllers\Auth\RegisteredUserController;
-use App\Http\Controllers\IntententeController;
+
 
 
 use Illuminate\Support\Facades\Route;
@@ -18,10 +18,11 @@ Route::get('/dashboard', function () {
 
 Route::view('/', 'welcome')->name('welcome');
 Route::view('/nosotros', 'nosotros')->name('nosotros');
+Route::view('/bienvenido', 'bienvenido')->name('bienvenido');
 Route::view('/contacto', 'contacto')->name('contacto');
 Route::view('/carreras', 'carreras')->name('carreras');
-Route::get('/catproy', [ProyectoController::class, 'showall'])->name('catproy');
 Route::view('/interatic', 'interatic')->name('interatic');
+Route::get('/catproy', [ProyectoController::class, 'showall'])->name('catproy');
 
 Route::middleware('auth')->group(function () {
     Route::get('/proyectos', [ProyectoController::class, 'index'])->name('proyectos.index');
@@ -79,4 +80,3 @@ Route::middleware('auth')->group(function () {
 
 require __DIR__ . '/auth.php';
 
-Route::get('/intendente', [IntententeController::class, 'index'])->name('intendente.index');
