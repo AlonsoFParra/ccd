@@ -21,8 +21,8 @@
                 <tbody>
                     @foreach($usuarios as $usuario)
                     <tr>
-                        <td>{{$usuario->name }}</td>
-                        <td>{{$usuario->email }}</td>
+                        <td>{{$usuario->'admin' }}</td>
+                        <td>{{$usuario->'admin' }}</td>
                         <td></td>
                         <td></td>
                     </tr>

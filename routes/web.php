@@ -7,6 +7,11 @@ use App\Http\Controllers\AulaController;
 use App\Http\Controllers\PeriodoController;
 use App\Http\Controllers\GrupoController;
 use App\Http\Controllers\Auth\RegisteredUserController;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 06db915d4959271d81bcbe319749e3e3647b4ea3
 
 use Illuminate\Support\Facades\Route;
 
@@ -16,10 +21,11 @@ Route::get('/dashboard', function () {
 
 Route::view('/', 'welcome')->name('welcome');
 Route::view('/nosotros', 'nosotros')->name('nosotros');
+Route::view('/bienvenido', 'bienvenido')->name('bienvenido');
 Route::view('/contacto', 'contacto')->name('contacto');
 Route::view('/carreras', 'carreras')->name('carreras');
-Route::get('/catproy', [ProyectoController::class, 'showall'])->name('catproy');
 Route::view('/interatic', 'interatic')->name('interatic');
+Route::get('/catproy', [ProyectoController::class, 'showall'])->name('catproy');
 
 Route::middleware('auth')->group(function () {
     Route::get('/proyectos', [ProyectoController::class, 'index'])->name('proyectos.index');
@@ -76,3 +82,7 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__ . '/auth.php';
+<<<<<<< HEAD
+=======
+
+>>>>>>> 06db915d4959271d81bcbe319749e3e3647b4ea3
