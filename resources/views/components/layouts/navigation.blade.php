@@ -34,6 +34,9 @@
                         <a href="{{ route('login') }}" class="px-3 py-2 text-sm font-medium rounded-md hover:text-sky-600 dark:hover:text-white {{ request()->routeIs('login') ? 'text-sky-600 dark:text-white' : 'text-slate-400' }}">
                             Ingresar
                         </a>
+                        <a href="{{ route('login') }}" class="px-3 py-2 text-sm font-medium rounded-md hover:text-sky-600 dark:hover:text-white {{ request()->routeIs('login') ? 'text-sky-600 dark:text-white' : 'text-slate-400' }}">
+                            Ingresar 2
+                        </a>
                     </div>
                 </div>
             </div>
