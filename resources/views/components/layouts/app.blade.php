@@ -13,7 +13,7 @@
     @livewireStyles
 </head>
 
-<body style="background-color: #170DB1;">
+<body style="background-color: #5950FF;">
     <x-layouts.navigation />
     @if(session('status'))
     <div>{{session('status')}}</div>
