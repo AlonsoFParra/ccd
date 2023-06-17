@@ -10,11 +10,8 @@ use App\Http\Controllers\Auth\RegisteredUserController;
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::view('/', 'welcome')->name('welcome');
+
 Route::view('/nosotros', 'nosotros')->name('nosotros');
 Route::view('/bienvenido', 'bienvenido')->name('bienvenido');
 Route::view('/contacto', 'contacto')->name('contacto');
