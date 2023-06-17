@@ -14,6 +14,8 @@
 </head>
 
 <body style="background-color: #5950FF;">
+    
+
     <x-layouts.navigation />
     @if(session('status'))
     <div>{{session('status')}}</div>
