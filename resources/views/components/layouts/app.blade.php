@@ -13,7 +13,7 @@
     @livewireStyles
 </head>
 
-<body style=" background-image: url(../public/img/fondo.jpg);background-repeat: no-repeat;background-size: cover;">
+<body style="background-color: #170DB1;">
     <x-layouts.navigation />
     @if(session('status'))
     <div>{{session('status')}}</div>
