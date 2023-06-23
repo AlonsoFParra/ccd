@@ -12,7 +12,7 @@
             </div>
             <div class="mx-auto">
                 <div class="flex space-x-4">
-                    <a href="{{ route('welcome') }}" class="px-3 py-2 text-base font-medium rounded-md hover:text-color-#008FFF hover:text-color-#008FFF{{ request()->routeIs('welcome') ? 'text-sky-600 dark:text-black' : 'text-white' }}">
+                    <a href="{{ route('welcome') }}" class="px-3 py-2 text-base font-medium rounded-md hover:text-color-#fbff00 hover:text-color-#008FFF{{ request()->routeIs('welcome') ? 'text-sky-600 dark:text-black' : 'text-white' }}">
                         Inicio
                     </a>
                     <a href="{{ route('carreras') }}" class="px-3 py-2 text-base font-medium rounded-md hover:text-color-#008FFF hover:text-color-#008FFF{{ request()->routeIs('carreras') ? 'text-sky-600 dark:text-black' : 'text-white' }}">

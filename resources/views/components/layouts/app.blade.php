@@ -13,7 +13,7 @@
     @livewireStyles
 </head>
 
-<body style="background-color: #5950FF;">
+<body style="background-color: #15B17B;">
     
 
     <x-layouts.navigation />
